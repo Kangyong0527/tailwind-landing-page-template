@@ -32,15 +32,15 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">날 고용하세요 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">환상적인 신입개발자</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">박강용을 고용하세요 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">그는 환상적인 신입개발자</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">당신이 무엇을 상상하던 그 이상의 능력을 보여줄 신입개발자. 그를 고용한 당신은 절대 후회 하지 않을겁니디. 당신의 팀에 제일 적합한 개발자!! 지금 고용하세요</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">이력서 열람하기</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">지금당장 채용하기</a>
                 </div>
               </div>
             </div>
@@ -85,14 +85,14 @@ function HeroHome() {
                   <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
                   <path d="M10 17l6-5-6-5z" />
                 </svg>
-                <span className="ml-3">Watch the full video (2 min)</span>
+                <span className="ml-3">자기소개 동영상 보기(1 min)</span>
               </button>
             </div>
 
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/174002812" title="Video" allowFullScreen></iframe>
+                <iframe className="absolute w-full h-full" src="https://youtu.be/m_tjGryl_YQ" title="Video" allowFullScreen></iframe>
               </div>
             </Modal>
 
