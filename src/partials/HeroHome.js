@@ -32,7 +32,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">박강용을 고용하세요 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><p>그는 환상적인 신입개발자</p></span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">박강용을 고용하세요 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><br>그는 환상적인 신입개발자</br></span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">당신이 무엇을 상상하던 그 이상의 능력을 보여줄 신입개발자. 그를 고용한 당신은 절대 후회 하지 않을겁니디. 당신의 팀에 제일 적합한 개발자!! 지금 고용하세요</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
